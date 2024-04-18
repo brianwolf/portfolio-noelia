@@ -3,8 +3,8 @@
 }
 
 @font-face {
-	font-family: photograph-signature;
-	src: url(../fonts/PhotographSignature.ttf);
+	font-family: Italianno-Regular;
+	src: url(../fonts/Italianno-Regular.ttf);
 }
 
 .navbar-brand {
@@ -12,11 +12,11 @@
 }
 
 body {
-	background-color: #DDDDDD;
+	background-color: white;
 	color: black;
-	/* font-family: 'photograph-signature'; */
-	font-size: 25px;
-	font-weight: 300;
+	font-family: 'Italianno-Regular';
+	font-size: 35px;
+	font-weight: 100;
 	overflow-x: hidden;
 }
 
@@ -155,7 +155,6 @@ button:focus {
 
 .cd-slider-nav a,
 .navbar-nav .nav-link {
-	background-color: transparent;
 	color: black;
 	display: table-cell;
 	font-weight: 400;
@@ -256,6 +255,13 @@ button:focus {
 	font-size: 1.6em;
 	font-weight: 400;
 	text-align: center;
+}
+
+.navbar-brand-tittle {
+	color: white;
+	font-size: 1.6em;
+	text-align: center;
+	margin-bottom: 0;
 }
 
 /* footer */
@@ -637,7 +643,7 @@ textarea {
 	background-color: rgba(0, 0, 0, 0.3);
 	color: white;
 	display: inline-block;
-	font-size: 1.8rem;
+	font-size: 4rem;
 	font-weight: 400;
 	padding: 5px 12px;
 	width: 100%;
@@ -747,6 +753,7 @@ figure.effect-ruby:hover img {
 }
 
 .cd-hero-slider .selected .cd-full-width p.tm-figure-description {
+	font-family: 'Courier New', Courier, monospace;
 	font-weight: 400;
 	margin: 1em 0 0;
 	padding: 2rem;
