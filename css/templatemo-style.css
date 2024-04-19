@@ -68,6 +68,7 @@ a:focus {
 
 .cd-hero-slider .cd-full-width {
 	padding-top: 0;
+	border-color: black;
 }
 
 .cd-slider-nav {
@@ -120,7 +121,7 @@ a:focus {
 	padding: 1rem 1.5rem;
 	background: rgba(255, 255, 255, 0.7);
 	border-radius: 0;
-	position: absolute;
+	/* position: absolute; */
 	right: 20px;
 	top: 5px;
 }
@@ -176,6 +177,9 @@ button:focus {
 
 .cd-hero-slider {
 	height: 100vh;
+	/* height: 10000%; */
+	/* position: static; */
+	/* padding-top: 200px; */
 }
 
 .cd-hero-slider li {
@@ -285,17 +289,17 @@ button:focus {
 }
 
 .tm-footer {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-}
-
-.tm-footer {
+	/* position: absolute; */
+	/* bottom: 0;
+	left: 0; */
+	background-color: black;
+	padding-top: 0px;
 	width: 100%;
 	color: white;
 	z-index: 1001;
-	padding: 0 11px 12px;
+	/* padding: 0 11px 12px; */
 }
+
 
 .tm-social-icons-container {
 	margin-bottom: 30px;
@@ -560,9 +564,9 @@ textarea {
 	text-align: left;
 }
 
-.cd-full-width .container-fluid {
+/* .cd-full-width .container-fluid {
 	margin-top: -80px;
-}
+} */
 
 .tm-2-col-textbox-2 {
 	width: 100%;
@@ -660,7 +664,7 @@ textarea {
 	width: 100%;
 }
 
-.tm-footer {
+/* .tm-footer {
 	padding: 50px 11px 20px;
 }
 
@@ -671,7 +675,7 @@ textarea {
 .tm-footer-link:hover,
 .tm-footer-link:focus {
 	color: yellow;
-}
+} */
 
 .tm-home-fa {
 	display: block;
@@ -821,6 +825,7 @@ figure.effect-ruby:hover img {
 	margin-right: 0;
 }
 
+
 /* Media Queries */
 
 @media only screen and (min-width: 400px) {
@@ -835,12 +840,16 @@ figure.effect-ruby:hover img {
 	.grid-item figure figcaption {
 		padding: 2em;
 	}
+
+	.js-tm-page-content {
+		margin-top: 5%;
+	}
 }
 
 @media only screen and (min-width: 480px) {
-	.cd-full-width .container-fluid {
+	/* .cd-full-width .container-fluid {
 		margin-top: -80px;
-	}
+	} */
 
 	.cd-hero-slider h2.tm-text-title {
 		font-size: 1.8em;
@@ -891,9 +900,9 @@ figure.effect-ruby:hover img {
 }
 
 @media only screen and (min-width: 600px) {
-	.tm-footer {
+	/* .tm-footer {
 		padding: 50px 30px 20px;
-	}
+	} */
 
 	.tm-copyright-text {
 		width: auto;
@@ -1171,11 +1180,16 @@ figure.effect-ruby:hover img {
 
 @media only screen and (max-width: 991px) {
 	iframe {
-		height: 400px;
+		height: 500px;
 		width: 300px;
 	}
 
 	.grid-item {
-		margin-left: 13%;
+		margin-left: 14%;
+	}
+
+
+	.container-fluid .js-tm-page-content .tm-page-pad {
+		background-color: #2277EE;
 	}
 }
