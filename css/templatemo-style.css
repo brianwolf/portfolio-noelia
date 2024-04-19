@@ -111,6 +111,7 @@ a:focus {
 	padding-right: 10px;
 	background-color: var(--color-gray);
 	overflow: auto;
+	border-radius: 10px;
 }
 
 .navbar-toggler {
@@ -224,6 +225,7 @@ button:focus {
 .tm-textbox {
 	display: inline-block;
 	width: 100%;
+	border-radius: 10px;
 }
 
 .cd-hero-slider h2,
@@ -233,10 +235,11 @@ button:focus {
 }
 
 .cd-hero-slider .tm-text {
-	font-size: 1em;
+	font-size: 50%;
 	line-height: 1.8;
 	color: white;
 	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 .cd-full-width .container-fluid.tm-page-width {
@@ -382,6 +385,14 @@ textarea {
 	margin: auto;
 	display: block;
 	margin-bottom: 20px;
+}
+
+.effect-ruby {
+	/* float: left; */
+	text-align: center;
+	width: 300px;
+	height: 150px;
+	/* object-fit: cover; */
 }
 
 /* Preloader 
@@ -643,7 +654,7 @@ textarea {
 	background-color: rgba(0, 0, 0, 0.3);
 	color: white;
 	display: inline-block;
-	font-size: 4rem;
+	font-size: 80%;
 	font-weight: 400;
 	padding: 5px 12px;
 	width: 100%;
@@ -754,7 +765,7 @@ figure.effect-ruby:hover img {
 
 .cd-hero-slider .selected .cd-full-width p.tm-figure-description {
 	font-family: 'Courier New', Courier, monospace;
-	font-weight: 400;
+	width: 200%;
 	margin: 1em 0 0;
 	padding: 2rem;
 	border: 1px solid #fff;
@@ -1107,9 +1118,9 @@ figure.effect-ruby:hover img {
 		padding-top: 0;
 	}
 
-	.cd-hero-slider .tm-text {
+	/* .cd-hero-slider .tm-text {
 		font-size: 1em;
-	}
+	} */
 
 	.grid-item figure figcaption {
 		padding: 2em;
@@ -1155,11 +1166,16 @@ figure.effect-ruby:hover img {
 	#google-map {
 		height: 520px;
 	}
+
 }
 
 @media only screen and (max-width: 991px) {
 	iframe {
 		height: 400px;
 		width: 300px;
+	}
+
+	.grid-item {
+		margin-left: 13%;
 	}
 }
