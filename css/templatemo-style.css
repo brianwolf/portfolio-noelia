@@ -564,10 +564,6 @@ textarea {
 	text-align: left;
 }
 
-/* .cd-full-width .container-fluid {
-	margin-top: -80px;
-} */
-
 .tm-2-col-textbox-2 {
 	width: 100%;
 	padding: 25px;
@@ -663,19 +659,6 @@ textarea {
 	padding: 5px 12px;
 	width: 100%;
 }
-
-/* .tm-footer {
-	padding: 50px 11px 20px;
-}
-
-.tm-footer-link {
-	color: white;
-}
-
-.tm-footer-link:hover,
-.tm-footer-link:focus {
-	color: yellow;
-} */
 
 .tm-home-fa {
 	display: block;
@@ -806,10 +789,6 @@ figure.effect-ruby:hover img {
 	max-width: 453px;
 }
 
-/* .tm-img-gallery-container-2 {
-	max-width: 453px;
-} */
-
 .tm-gallery-title span {
 	width: 100%;
 	text-align: center;
@@ -844,18 +823,9 @@ figure.effect-ruby:hover img {
 	.js-tm-page-content {
 		margin-top: 5%;
 	}
-
-	.grid-item {
-		/* margin-left: 14%; */
-		align-items: center;
-		align-self: center;
-	}
 }
 
 @media only screen and (min-width: 480px) {
-	/* .cd-full-width .container-fluid {
-		margin-top: -80px;
-	} */
 
 	.cd-hero-slider h2.tm-text-title {
 		font-size: 1.8em;
@@ -878,17 +848,6 @@ figure.effect-ruby:hover img {
 		max-width: 453px;
 	}
 
-	/* .grid-item {
-		padding-left: 10px;
-		padding-right: 10px;
-		width: 50%;
-	} */
-
-	/* .gallery-two .grid-item,
-	.gallery-three .grid-item {
-		width: 100%;
-	} */
-
 	.tm-img-gallery-info-container {
 		padding: 0 11px 30px;
 		max-width: 700px;
@@ -906,9 +865,6 @@ figure.effect-ruby:hover img {
 }
 
 @media only screen and (min-width: 600px) {
-	/* .tm-footer {
-		padding: 50px 30px 20px;
-	} */
 
 	.tm-copyright-text {
 		width: auto;
@@ -916,9 +872,6 @@ figure.effect-ruby:hover img {
 }
 
 @media only screen and (min-width: 652px) {
-	/* .gallery-two .grid-item {
-		width: 50%;
-	} */
 
 	.tm-img-gallery-container-2 {
 		max-width: 906px;
@@ -1042,22 +995,6 @@ figure.effect-ruby:hover img {
 		max-width: 1360px;
 	}
 
-	/* .grid-item {
-		width: 25%;
-	}
-
-	.gallery-two .grid-item {
-		width: 33.3333%;
-	}
-
-	.gallery-three .grid-item {
-		width: 50%;
-	}
-
-	.grid-item figure figcaption {
-		padding: 1em;
-	} */
-
 	.cd-hero-slider .selected .cd-full-width .gallery-one figure.effect-ruby h2.tm-figure-title,
 	.cd-hero-slider .selected .cd-full-width .gallery-two figure.effect-ruby h2.tm-figure-title {
 		font-size: 1.5em;
@@ -1133,10 +1070,6 @@ figure.effect-ruby:hover img {
 		padding-top: 0;
 	}
 
-	/* .cd-hero-slider .tm-text {
-		font-size: 1em;
-	} */
-
 	.grid-item figure figcaption {
 		padding: 2em;
 	}
@@ -1191,8 +1124,6 @@ figure.effect-ruby:hover img {
 	}
 
 	.grid-item {
-		/* margin-left: 14%; */
-		align-items: center;
-		align-self: center;
+		margin-left: 3%;
 	}
 }
