@@ -242,7 +242,7 @@ button:focus {
 	line-height: 1.8;
 	color: white;
 	text-align: center;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .cd-full-width .container-fluid.tm-page-width {
@@ -1120,7 +1120,7 @@ figure.effect-ruby:hover img {
 @media only screen and (max-width: 991px) {
 	iframe {
 		height: 500px;
-		width: 300px;
+		width: 360px;
 	}
 
 	.grid-item {
