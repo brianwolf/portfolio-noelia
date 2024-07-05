@@ -1,6 +1,7 @@
 import os
 
-DIR_IMGS = "img/galeria/fotografia"
+# DIR_IMGS = "img/galeria/fotografia"
+DIR_IMGS = "img/galeria/community"
 
 result = ""
 
